@@ -1,3 +1,21 @@
+/* fin de zona común a todas las resoluciones */
+@media screen and (min-width:800px) {
+	body {
+		font-size:100%;
+		/* ampliamos los textos si mide más de 800px */
+	}
+}
+
+/* fin de la zona para más de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {
+	body {
+		font-size:120%;
+		/* ampliamos más aún los textos si mide más de 1200px */
+	}
+}
+
+/* fin de la zona para más de 1200px de ancho de pantalla */
+
 *{
     margin: 0;
     padding: 0;
