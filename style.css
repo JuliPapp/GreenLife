@@ -78,8 +78,13 @@ body{
 
 .main{
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     height: 800px;
+}
+
+.main-portada{
+    margin: 0 auto;
+    width: 70%;
 }
 
 .main-img{
