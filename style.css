@@ -1,3 +1,12 @@
+@media (max-width: 768px) {
+    .header{
+        height: 38px;
+    }
+    .nav-container{
+        width: fit-content;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -76,7 +85,7 @@ body{
     padding: 5px 5px 5px 5px;
 }
 
-input:focus-visible {
+input:focus-visible{
     outline-style: none;
 }
 
