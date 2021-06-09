@@ -76,10 +76,13 @@ input:focus-visible{
     max-height:max-content;
 }
 .scroll{
-    margin-bottom: -5%;
+    margin-bottom: -60%;
 }
 .scroll img{
-    display: none;
+    margin-top: 50%;
+    position: relative;
+    top: 10px;
+    z-index: 1;
     width: 5%;
 }
 .main-img{
@@ -139,8 +142,18 @@ input:focus-visible{
     .busqueda-input{
         width: 100%;
     }
-    .main-slogan{
+    .main-slogan {
         font-size: 25px;
-        padding-bottom: 95%;
+        padding-bottom: 10%;
+    }
+    .scroll img {
+        margin-bottom: 80%;
+        position: relative;
+        top: -124px;
+        z-index: 1;
+        width: 5%;
+    }
+    .main-img{
+
     }
 }
