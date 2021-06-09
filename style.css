@@ -12,6 +12,7 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    border: 1px solid black;
 }
 .align-center{
     align-items: center;
@@ -126,8 +127,7 @@ input:focus-visible{
     font-family: DIN Condensed;
     position: absolute;
     top: 120%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 37%;
 }
 .section-skincare{
     margin: 0 auto;
@@ -145,11 +145,11 @@ input:focus-visible{
         max-width: 95%;
     }
     .logo-container img{
-        height: 15px;
+        height: 20px;
     }
-    .nav-header{
+    /*.nav-header{
         font-size: 13px;
-    }
+    }*/
     .busqueda-container img{
         display: none;
     }
