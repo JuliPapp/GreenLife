@@ -149,7 +149,7 @@ input:focus-visible{
     .scroll img {
         margin-bottom: 80%;
         position: relative;
-        top: -124px;
+        top: -100px;
         z-index: 1;
         width: 5%;
     }
