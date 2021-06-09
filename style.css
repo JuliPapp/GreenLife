@@ -115,9 +115,26 @@ input:focus-visible{
     text-align: center;
     color: #FBF7E9;
 }
+.skincare.container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.center-title{
+    color: #6F1328;
+    font-size: 118px;
+    font-family: DIN Condensed;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .section-skincare{
     margin: 0 auto;
-    width: 100%;
+    max-width: 100%;
+}
+.section-skincare .img-back{
+   max-width: 100%;
 }
 
 @media (max-width: 768px) {
