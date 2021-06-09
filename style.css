@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
     list-style: none;
     text-decoration: none;
 }
@@ -18,7 +17,7 @@ body{
     align-items: center;
 }
 .justify-center{
-    justify-items: center;
+    justify-content: center;
 }
 .display-inblo{
     display: inline-block;
@@ -27,6 +26,7 @@ body{
     display: flex;
 }
 .header{
+    position: relative;
     max-width: 100%;
     height: 48px;
     background-color: #F3F3EF;
@@ -37,8 +37,7 @@ body{
     max-width: 80%;
     margin: 0 auto;
 }
-.logo-container{
-    justify-content: center;   
+.logo-container{   
     width: 10%;
 }
 .nav-container{
@@ -73,11 +72,21 @@ input:focus-visible{
 }
 .main-portada{
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 60%;
+    max-height:max-content;
+}
+.scroll{
+    margin-bottom: -5%;
+}
+.scroll img{
+    display: none;
+    width: 5%;
 }
 .main-img{
-    justify-content: center;
-    width: 100%;
+    max-width: 100%;
+}
+.main-img img{
+    width: 80%;
     height: auto;
 }
 .main-greenlife{
@@ -88,13 +97,13 @@ input:focus-visible{
     font-size: 164px;
     line-height: 130px;
     color: #6D8E40;
-    justify-content: center;
     margin-top: 100px;
 }
 .span-life{
     color: #FBF7E9;
 }
 .main-slogan{
+    position: relative;
     font-family: 'Darker Grotesque', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -106,9 +115,6 @@ input:focus-visible{
 .section-skincare{
     margin: 0 auto;
     width: 100%;
-}
-.j{
-    border: 1px solid black;
 }
 
 @media (max-width: 768px) {
@@ -122,15 +128,19 @@ input:focus-visible{
         height: 15px;
     }
     .nav-header{
-        font-size: 12px;
+        font-size: 13px;
     }
     .busqueda-container img{
         display: none;
     }
     .main-greenlife{
-        font-size: 54px;
+        font-size: 85px;
     }
     .busqueda-input{
         width: 100%;
+    }
+    .main-slogan{
+        font-size: 25px;
+        padding-bottom: 10%;
     }
 }
