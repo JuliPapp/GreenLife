@@ -176,4 +176,8 @@ input:focus-visible{
     .main-img{
         display: none;
     }
+    .center-title{
+        font-size: 50px;
+        top: 103%;
+    }
 }
