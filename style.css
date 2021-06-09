@@ -138,22 +138,25 @@ input:focus-visible{
     }
     .main-greenlife{
         font-size: 85px;
+        margin-bottom: 40%;
+        margin-top: 75%;
     }
     .busqueda-input{
         width: 100%;
     }
     .main-slogan {
         font-size: 25px;
-        padding-bottom: 10%;
+        padding-bottom: 80%;
     }
     .scroll img {
-        margin-bottom: 80%;
+        margin-bottom: 50%;
         position: relative;
         top: -100px;
         z-index: 1;
         width: 10%;
+        margin-top: 10%;
     }
     .main-img{
-
+        display: none;
     }
 }
