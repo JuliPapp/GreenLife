@@ -3,11 +3,13 @@
     list-style: none;
     text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: DIN Alternate;
     font-style: normal;
     color: #6B6B63;
-    background-color: #D6D6C7;
 }
 .container{
     max-width: 1200px;
@@ -26,22 +28,33 @@ body{
     display: flex;
 }
 .header{
-    position: relative;
-    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
     height: 48px;
-    background-color: #F3F3EF;
+    background-color: rgb(243, 243, 239, 0.60);
+    backdrop-filter: blur(px);
     box-shadow: 0px -23px 60px rgba(0, 0, 0, 0.1);
+}
+ul{
+    padding: 0;
+    padding-right: 3%;
 }
 .inner-header{
     height: 100%;
     max-width: 80%;
     margin: 0 auto;
 }
-.logo-container{   
-    width: 10%;
+.logo-container{  
+    height: 100%; 
+    width: 5%;
 }
 .nav-container{
     width: 70%;
+    margin: 0 auto;
+
 }
 .nav-header{
     width: 100%;
@@ -49,7 +62,7 @@ body{
     text-align: center;
     justify-content: space-evenly;
 }
-.busqueda-container{
+/*.busqueda-container{
     height: 30px;
     width: 30%;
     margin: 0px 5px;
@@ -58,83 +71,63 @@ body{
 .busqueda-input{
     margin-left: 5%;
     border: none;
-    background-color: #FCFCFC;
+    background-color: rgb(252, 252, 252, 0.9);
     border-radius: 161px;
     padding: 5px 5px 5px 5px;
 }
 input:focus-visible{
     outline-style: none;
-}
-.main{
-    margin: 0 auto;
-    width: 100%;
-    height: 800px;
-}
+}*/
 .main-portada{
-    margin: 0 auto;
-    max-width: 60%;
-    max-height:max-content;
-}
-.scroll{
-    margin-bottom: -60%;
-}
-.scroll img{
-    margin-top: 50%;
+    background-color: #D6D6C7;
+    position: fixed;
     position: relative;
-    top: 10px;
+    top: 0;
+    left: 0;
     z-index: 1;
-    width: 5%;
-}
-.main-img{
-    max-width: 100%;
-}
-.main-img img{
-    width: 80%;
-    height: auto;
+    width: 100%;
 }
 .main-greenlife{
-    max-width: 100%;
     font-family: DIN Condensed;
-    font-style: normal;
     font-weight: bold;
     font-size: 164px;
     line-height: 130px;
     color: #6D8E40;
-    margin-top: 100px;
+    padding-top: 150px;
 }
-.span-life{
+.main-greenlife span{
     color: #FBF7E9;
 }
 .main-slogan{
-    position: relative;
     font-family: 'Darker Grotesque', sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 53px;
     line-height: 0px;
-    text-align: center;
     color: #FBF7E9;
+    padding-bottom: 500px;
 }
-.skincare.container{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+.main-img{
+    display: block;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+}
+.scroll{
+    position: absolute;
+    z-index: 1;
+    width: 5%;
+    bottom: 10%;
+}
+.main-skincare{
+    width: 100%;
+    background-image: url(img/GRANADA\ 1.jpg);
+    background-size: cover;
 }
 .center-title{
     color: #6F1328;
     font-size: 118px;
     font-family: DIN Condensed;
-    position: absolute;
-    top: 120%;
-    left: 37%;
-}
-.section-skincare{
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-.section-skincare .img-back{
-   max-width: 100%;
+    margin-top: 10%;
+    padding-bottom: 50%;
 }
 
 @media (max-width: 768px) {
@@ -150,28 +143,24 @@ input:focus-visible{
     .nav-header{
         font-size: 13px;
     }
-    .busqueda-container img{
-        display: none;
+    .nav-container{
+        width: 90%;
     }
     .main-greenlife{
         font-size: 85px;
-        margin-bottom: 40%;
-        margin-top: 75%;
+    }
+    /*.busqueda-container img{
+        display: none;
     }
     .busqueda-input{
         width: 100%;
-    }
+    }*/
     .main-slogan {
         font-size: 25px;
-        padding-bottom: 80%;
     }
-    .scroll img {
-        margin-bottom: 50%;
-        position: relative;
-        top: -100px;
-        z-index: 1;
+    .scroll{
         width: 10%;
-        margin-top: 10%;
+        bottom: 25%;
     }
     .main-img{
         display: none;
