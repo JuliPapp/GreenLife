@@ -17,6 +17,7 @@ body{
     font-family: DIN Alternate;
     font-style: normal;
     color: #6B6B63;
+    width: 100%;
 }
 .container{
     max-width: 1200px;
@@ -42,7 +43,7 @@ body{
     width: 100%;
     height: 48px;
     background-color: rgb(243, 243, 239, 0.60);
-    backdrop-filter: blur(px);
+    backdrop-filter: blur(20px);
     box-shadow: 0px -23px 60px rgba(0, 0, 0, 0.1);
 }
 ul{
@@ -87,7 +88,6 @@ input:focus-visible{
 }*/
 .main-portada{
     background-color: #D6D6C7;
-    position: fixed;
     position: relative;
     top: 0;
     left: 0;
@@ -126,15 +126,64 @@ input:focus-visible{
 }
 .main-skincare{
     width: 100%;
-    background-image: url(img/GRANADA\ 1.jpg);
-    background-size: cover;
+    background-image: url(img/back-1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .center-title{
     color: #6F1328;
-    font-size: 118px;
+    font-size: 110px;
     font-family: DIN Condensed;
-    margin-top: 10%;
+    margin-top: 5%;
+}
+.container-section{
+    margin: 0 auto;
+    max-width: 60%;
+    font-family: Darker Grotesque;
+    font-size: 24px;
+    line-height: 176.1%;
+    letter-spacing: 0.03em;
+    color: #000000;
     padding-bottom: 50%;
+}
+.span-skincare{
+    color: #6F1328;
+}
+.main-tonificador{
+    background-image: url(img/back-2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.product-1-container{
+    margin-top: 50%;
+    font-family: DIN Condensed;
+    font-size: 33px;
+    color: #6F1328;
+    margin-left: 20%;
+    text-align: right;
+}
+.product-1-description{
+    margin-top: 2%;
+    font-family: Darker Grotesque;
+    font-size: 24px;
+    color: #000000;
+    margin-left: 25%;
+}
+.product-1-end-description{
+    margin-top: 6%;
+    font-family: Darker Grotesque;
+    font-size: 24px;
+    color: #000000;
+    margin-left: 22%;
+}
+.caja-tonificador{
+    height: 90%;
+    position: absolute;
+    top: 300%;
+    right: 70%;
+    z-index: 1;
 }
 
 @media (max-width: 768px) {
