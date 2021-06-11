@@ -154,7 +154,6 @@ input:focus-visible{
     background-image: url(img/back-2.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    position: relative;
 }
 .product-1-container{
     margin-top: 50%;
@@ -163,6 +162,7 @@ input:focus-visible{
     color: #6F1328;
     margin-left: 20%;
     text-align: right;
+    position: relative;
 }
 .product-1-description{
     margin-top: 2%;
@@ -179,9 +179,9 @@ input:focus-visible{
     margin-left: 22%;
 }
 .caja-tonificador{
-    height: 90%;
+    height: 300%;
     position: absolute;
-    top: 300%;
+    bottom: -90%;
     right: 70%;
     z-index: 1;
 }
@@ -224,5 +224,16 @@ input:focus-visible{
     .center-title{
         font-size: 50px;
         top: 130%;
+    }
+    .container-section{
+        line-height: 30px;
+    }
+    .product-1-container{
+        line-height: 30px;
+        margin-left: 0%;
+    }
+    .product-1-description, .product-1-end-description{
+        line-height: 23px;
+        margin-left: 30%;
     }
 }
