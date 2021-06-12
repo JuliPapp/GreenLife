@@ -20,7 +20,7 @@ body{
     width: 100%;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 .align-center{
@@ -87,12 +87,14 @@ input:focus-visible{
     outline-style: none;
 }*/
 .main-portada{
+    height: 800px;
     background-color: #D6D6C7;
     position: relative;
+    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
-    width: 100%;
+    z-index: 0;
 }
 .main-greenlife{
     font-family: DIN Condensed;
@@ -113,56 +115,68 @@ input:focus-visible{
     padding-bottom: 500px;
 }
 .main-img{
-    display: block;
-    width: 50%;
+    height: 62%;
     position: absolute;
     bottom: 0;
 }
 .scroll{
     position: absolute;
     z-index: 1;
-    width: 5%;
-    bottom: 10%;
+    height: 6%;
+    bottom: 15%;
 }
-.main-skincare{
-    width: 100%;
-    background-image: url(img/back-1.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+.bg-color-1{
+    background-color: #F8F7F3;
+}
+.zindex-1{
     position: relative;
+    top: 800px;
+    z-index: 1;
 }
-.center-title{
-    color: #6F1328;
-    font-size: 110px;
-    font-family: DIN Condensed;
-    margin-top: 5%;
-}
-.container-section{
+.text-container{
     margin: 0 auto;
     max-width: 60%;
     font-family: Darker Grotesque;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 176.1%;
     letter-spacing: 0.03em;
     color: #000000;
-    padding-bottom: 50%;
+
+}
+.main-skincare{
+    height: 100%;
+    width: 1920px;
+    background-image: url(img/back-1.png);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+
+}
+.center-title{
+    color: #6F1328;
+    font-size: 100px;
+    font-family: DIN Condensed;
+    margin-top: 5%;
+}
+.presentation{
+    padding-bottom: 33%;
 }
 .span-skincare{
     color: #6F1328;
 }
 .main-tonificador{
+    height: 100%;
     background-image: url(img/back-2.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .product-1-container{
-    margin-top: 50%;
     font-family: DIN Condensed;
     font-size: 33px;
     color: #6F1328;
+    margin-top: 40%;
     margin-left: 20%;
+    margin-bottom: 10%;
     text-align: right;
-    position: relative;
 }
 .product-1-description{
     margin-top: 2%;
@@ -179,12 +193,107 @@ input:focus-visible{
     margin-left: 22%;
 }
 .caja-tonificador{
-    height: 300%;
+    height: 134%;
     position: absolute;
-    bottom: -90%;
-    right: 70%;
+    bottom: -182px;
+    right: 53%;
     z-index: 1;
 }
+
+.main-slider{
+    height: 100%;
+    width: 1920px;
+    background-image: url(img/back-3.png);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container-slider {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
 
 @media (max-width: 768px) {
     .header{
