@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="img/">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Greenlife</title>
 </head>
 <body>
@@ -71,19 +72,15 @@
                     </div>
                     <div class="flex justify-center">
                         <div class="presentation text-container">
-                            <p>Green Life es una compañía que se enfoca en <span class="span-skincare">ayudarte a construir</span> un estilo
+                            <p>Green Life es una compañía que se enfoca en <span        class="span-skincare">ayudarte a construir</span> un estilo
                                 de vida <span class="span-skincare">saludable y sostenible</span> en el tiempo.
                             </p>
                             <p>
                                 En Green Life no nos enfocamos en las restricciones, sino en la importacia
                                 de <span class="span-skincare">generar hábitos sanos</span class="span-skincare"> que lleven el cuidado de tu piel a <span class="span-skincare">un nuevo nivel.</span>
                             </p>
-                            <p>
-                                Con nuestra linea Skin Care obtendrás resultados
-                            </p>
-                            <p>
-                                en tan solo siete días.
-                            </p>
+                            <p>Con nuestra linea Skin Care obtendrás resultados</p>
+                            <p>en tan solo siete días.</p>
                         </div>
                     </div>
                 </div>
@@ -112,67 +109,58 @@
             </div>
             <div class="main-slider container">
                 <!-- Container for the image gallery -->
-                <div class="container-slider">
-
-                    <!-- Full-width images with number text -->
+                <div class="container-slider text-container flex">
+                    <div class="slider-card">
+                        <p class="product-1-slider">Tonificador energizante
+                            a base de granada
+                        </p>
+                        <p>
+                            Precio unitario $589
+                        </p>
+                    
+                
+                    <!-- Thumbnail images -->
+                    <div class="row-slider flex justify-center align-center">
+                        <div class="column">
+                            <img class="demo cursor" src="img/TONIFICADOR 1.png" style="width:100%" onclick="currentSlide(1)" alt="Tonificador 1">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/TONIFICADOR 2.png" style="width:100%" onclick="currentSlide(2)" alt="Tonificador 2">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/TONIFICADOR 3.png" style="width:100%" onclick="currentSlide(3)" alt="Tonificador 3">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/TONIFICADOR 4.png" style="width:100%" onclick="currentSlide(4)" alt="Tonificador 4">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/TONIFICADOR 5.png" style="width:100%" onclick="currentSlide(5)" alt="Tonificador 4">
+                        </div>
+                    </div>
+                        <!-- Full-width images with number text -->
                     <div class="mySlides">
-                    <div class="numbertext">1 / 5</div>
                         <img src="img/TONIFICADOR 1.png" style="width:100%">
                     </div>
                 
                     <div class="mySlides">
-                    <div class="numbertext">2 / 5</div>
                         <img src="img/TONIFICADOR 2.png" style="width:100%">
                     </div>
                 
                     <div class="mySlides">
-                    <div class="numbertext">3 / 5</div>
                         <img src="img/TONIFICADOR 3.png" style="width:100%">
                     </div>
                 
                     <div class="mySlides">
-                    <div class="numbertext">4 / 5</div>
                         <img src="img/TONIFICADOR 4.png" style="width:100%">
                     </div>
                 
                     <div class="mySlides">
-                    <div class="numbertext">5 / 5</div>
                         <img src="img/TONIFICADOR 5.png" style="width:100%">
-                    </div>
-                
-                    <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                
-                    <!-- Image text -->
-                    <div class="caption-container">
-                    <p id="caption"></p>
-                    </div>
-                
-                    <!-- Thumbnail images -->
-                    <div class="row">
-                    <div class="column">
-                        <img class="demo cursor" src="img/TONIFICADOR 1.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/TONIFICADOR 2.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/TONIFICADOR 3.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/TONIFICADOR 4.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="img/TONIFICADOR 5.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
                     </div>
                     </div>
                 </div>
             </div>
         </section>
-    </main>
-    <main>
-
     </main>
 </body>
 </html>

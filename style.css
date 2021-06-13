@@ -2,6 +2,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 a{
     list-style: none;
@@ -145,7 +146,7 @@ input:focus-visible{
 }
 .main-skincare{
     height: 100%;
-    width: 1920px;
+    width: 100%;
     background-image: url(img/back-1.png);
     background-size: 100% 100%;
     background-repeat:no-repeat;
@@ -158,14 +159,14 @@ input:focus-visible{
     margin-top: 5%;
 }
 .presentation{
-    padding-bottom: 33%;
+    padding-bottom: 30%;
 }
 .span-skincare{
     color: #6F1328;
 }
 .main-tonificador{
     height: 100%;
-    width: 1920px;
+    width: 100%;
     background-image: url(img/back-2.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -184,7 +185,7 @@ input:focus-visible{
     font-family: Darker Grotesque;
     font-size: 24px;
     color: #000000;
-    margin-left: 25%;
+    margin-left: 30%;
 }
 .product-1-end-description{
     margin-top: 6%;
@@ -194,33 +195,49 @@ input:focus-visible{
     margin-left: 22%;
 }
 .caja-tonificador{
-    height: 134%;
+    height: 60%;
     position: absolute;
-    bottom: -182px;
-    right: 53%;
+    bottom: 20%;
+    right: 41%;
     z-index: 1;
 }
 
 .main-slider{
     height: 100%;
-    width: 1920px;
+    width: 100%;
+    padding-top: 150px;
     background-image: url(img/back-3.png);
     background-size: 100% 100%;
     background-repeat:no-repeat;
 }
-
-* {
-    box-sizing: border-box;
-  }
   
+.slider-card{
+    width: 35%;
+}
+
+.product-1-slider{
+    font-family: DIN Condensed;
+    font-size: 33px;
+    color: #6F1328;
+    text-align: left;
+}
   /* Position the image container (needed to position the left and right arrows) */
   .container-slider {
+    width: 100%;
     position: relative;
+    right: 0;
+    z-index: 3;
+    padding-bottom: 30%;
   }
   
   /* Hide the images by default */
   .mySlides {
     display: none;
+    position: relative;
+    left: 100%;
+    width: 300%;
+    top: -40%;
+    z-index: 999999;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
@@ -257,15 +274,6 @@ input:focus-visible{
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
   /* Container for image text */
   .caption-container {
     text-align: center;
@@ -273,8 +281,13 @@ input:focus-visible{
     padding: 2px 16px;
     color: white;
   }
-  
-  .row:after {
+  .row-slider{
+      background: rgba(243, 243, 239, 0.58);
+      border-radius: 18px;
+      padding-top: 3%;
+      margin-top: 3%;
+  }
+  .row-slider:after {
     content: "";
     display: table;
     clear: both;
