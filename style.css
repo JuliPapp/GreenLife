@@ -189,12 +189,22 @@ input:focus-visible{
     margin-bottom: 20%;
     text-align: right;
 }
+.product-2-container{
+    font-family: DIN Condensed;
+    font-size: 33px;
+    color: #ED7A00;
+    margin-top: 30%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    text-align: right;
+}
 .product-1-description{
     margin-top: 2%;
     font-family: Darker Grotesque;
     font-size: 24px;
     color: #000000;
     margin-left: 30%;
+    padding-bottom: 10%;
 }
 .product-1-end-description{
     margin-top: 6%;
@@ -204,20 +214,19 @@ input:focus-visible{
     margin-left: 22%;
 }
 .main-slider{
-    height: 100%;
+    height: 973px;
     width: 100%;
     padding-top: 5%;
     background-image: url(img/back-3.png);
     background-size: 100% 100%;
     background-repeat:no-repeat;
 }
-  
 .slider-card{
     max-width: 35%;
     min-width: 35%;
     height: 100%;
+    padding-bottom: 30%;
 }
-
 .product-1-slider{
     font-family: DIN Condensed;
     font-size: 33px;
@@ -230,7 +239,6 @@ input:focus-visible{
     position: relative;
     right: 0;
     z-index: 3;
-    padding-bottom: 30%;
   }
   
   /* Hide the images by default */
@@ -289,6 +297,7 @@ input:focus-visible{
       justify-content: space-around;
       padding-top: 3%;
       margin-top: 5%;
+      margin-bottom: 50%;
   }
   .row-slider:after {
     content: "";
@@ -311,6 +320,14 @@ input:focus-visible{
   .demo:hover {
     opacity: 1;
   }
+  .main-limpiador{
+    height: 1173px;
+    width: 100%;
+    background-image: url(img/back-4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
 @media (max-width: 768px) {
     .header{
