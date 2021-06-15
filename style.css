@@ -122,7 +122,6 @@ input:focus-visible{
 }
 .scroll{
     position: absolute;
-    z-index: 1;
     height: 6%;
     bottom: 15%;
 }
@@ -132,7 +131,7 @@ input:focus-visible{
 .zindex-1{
     position: relative;
     top: 800px;
-    z-index: 1;
+    z-index: 2;
 }
 .text-container{
     margin: 0 auto;
@@ -173,14 +172,13 @@ input:focus-visible{
     background-repeat: no-repeat;
     position: relative;
 }
-.caja-tonificador{
+.added-element{
     height: 150%;
     position: absolute;
-    z-index: 2;
     bottom: -25%;
     left: calc(50% - 1100px);
 }
-.product-1-container{
+.product-container{
     font-family: DIN Condensed;
     font-size: 33px;
     color: #6F1328;
@@ -189,16 +187,7 @@ input:focus-visible{
     margin-bottom: 20%;
     text-align: right;
 }
-.product-2-container{
-    font-family: DIN Condensed;
-    font-size: 33px;
-    color: #ED7A00;
-    margin-top: 30%;
-    margin-left: 20%;
-    margin-bottom: 20%;
-    text-align: right;
-}
-.product-1-description{
+.product-description{
     margin-top: 2%;
     font-family: Darker Grotesque;
     font-size: 24px;
@@ -206,15 +195,12 @@ input:focus-visible{
     margin-left: 30%;
     padding-bottom: 3%;
 }
-.product-1-end-description{
+.product-end-description{
     margin-top: 6%;
-    font-family: Darker Grotesque;
-    font-size: 24px;
-    color: #000000;
     margin-left: 22%;
 }
 .main-slider{
-    height: 973px;
+    height: 100%;
     width: 100%;
     padding-top: 1%;
     background-image: url(img/back-3.png);
@@ -226,15 +212,24 @@ input:focus-visible{
     min-width: 35%;
     height: 100%;
 }
-.product-1-slider{
+.product-slider{
     font-family: DIN Condensed;
     font-size: 33px;
     color: #6F1328;
     text-align: left;
 }
+.p2-color{
+    color: #ED7A00;
+}
+.granada-transparencia{
+    position: relative;
+    z-index: 1;
+    left: 30%;
+}
   /* Position the image container (needed to position the left and right arrows) */
   .container-slider {
     width: 100%;
+    height: 500px;
     position: relative;
     right: 0;
     z-index: 3;
@@ -319,7 +314,7 @@ input:focus-visible{
   .demo:hover {
     opacity: 1;
   }
-  .main-limpiador{
+  .main-limpiador {
     height: 100%;
     width: 100%;
     background-image: url(img/back-4.png);
@@ -327,7 +322,50 @@ input:focus-visible{
     background-repeat: no-repeat;
     position: relative;
 }
+.bk-4 {
+    background-image: url(img/back-5.png);
+}
+.main-fitlife {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/Work\ Out-Recuperado.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.divisor{
+    background-color: white;
+    height: 7px;
+}
+.main-title-fitlife {
+    margin: 25% 25%;
+    font-family: DIN Condensed;
+    font-size: 100px;
+    color: #dedede;
 
+    font-weight: bold;
+    line-height: 176.1%;    
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.span-title-fitlife-gradient{
+    background: #A8FD32;
+    background: -webkit-linear-gradient(to right, #A8FD32 0%, #DEDEDE 91%);
+    background: -moz-linear-gradient(to right, #A8FD32 0%, #DEDEDE 91%);
+    background: linear-gradient(to right, #A8FD32 0%, #DEDEDE 91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.span-title-fitlife-life{
+    color: #A8FD32;
+
+}
+.proximamente{
+    background-color: #050210;
+    color: rgb(239, 239, 252);
+    padding: 100px 0px 100px 0px;
+    font-size: 40px;
+}
 @media (max-width: 768px) {
     .header{
         height: 38px;
