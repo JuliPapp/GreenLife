@@ -10,6 +10,7 @@ a{
     font-family: DIN Alternate;
     font-style: normal;
     color: #6B6B63;
+    text-shadow: 0px 0px 1px whitesmoke;
 }
 html {
     scroll-behavior: smooth;
@@ -43,7 +44,7 @@ body{
     z-index: 9;
     width: 100%;
     height: 48px;
-    background-color: rgb(243, 243, 239, 0.60);
+    background-color: rgb(243, 243, 239, 0.70);
     backdrop-filter: blur(20px);
     box-shadow: 0px -23px 60px rgba(0, 0, 0, 0.1);
 }
@@ -378,11 +379,45 @@ input:focus-visible{
     color: #A8FD32;
 }
 .proximamente{
+    font-family: 'Darker Grotesque', sans-serif;
     background-color: #050210;
     color: rgb(239, 239, 252);
     padding: 100px 0px 100px 0px;
-    font-size: 40px;
+    font-size: 100px;
 }
+.footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(243, 243, 239);
+}
+.logo-footer{
+    width: 20%;
+}
+.contact-card{
+    width: 80%;
+    justify-content: flex-end;
+}
+.logo-wpp{
+    height: 55px;
+    padding: 1% 7% 1% 0;
+}
+.button-contactar{
+    background-color: #000000;
+    color: whitesmoke;
+    font-size: 35px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .header{
         height: 38px;
