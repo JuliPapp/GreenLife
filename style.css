@@ -501,6 +501,9 @@ opacity: 1;
         max-width: 77%;
         margin-top: 70%;
     }
+    .footer{
+        height: 100px;
+    }
     .contact-card{
         flex-direction: column;
     }
