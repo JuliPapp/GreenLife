@@ -498,7 +498,21 @@ opacity: 1;
         border-radius: 6px;
     }
     .slider-card{
-        max-width: 80%;
+        max-width: 77%;
         margin-top: 70%;
+    }
+    .contact-card{
+        flex-direction: column;
+    }
+    .mapa-de-sitio{
+        padding-left: 0px;
+    }
+    .button-contactar{
+        font-size: 12px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    .icon-button-footer{
+        height: 17px;
     }
 }
