@@ -14,29 +14,26 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/69dbc1186412d7831b88d8a78a360360?family=DIN+Condensed+Web" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="img/">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Greenlife</title>
 </head>
 <body>
-
     <header class="header">
-        <div class="inner-header flex align-center">
-            <div class="logo-container flex align-center justify-center">
-                <a href="#ir-a-home">
+        <div class="inner-container flex align-center">
+                <a href="#ir-a-home" class="logo-container flex align-center justify-center">
                     <img src="img/Favicon.png" alt="Logo Greenlife" height="30 px">
                 </a>
-            </div>
-
-            <nav class="nav-container flex">
+            <nav class="nav-container">
                 <ul class="nav-header flex">
-                    <li><a href="#ir-a-skincare">Skin Care</a></li>
-                    <li><a href="#ir-a-fitlife">Fit-Life</a></li>
-                    <li><a href="#ir-a-contacto">Contacto</a></li>
+                    <li><a href="#ir-a-skincare" class="nav-menu">Skin Care</a></li>
+                    <li><a href="#ir-a-fitlife" class="nav-menu">Fit-Life</a></li>
+                    <li><a href="#ir-a-contacto" class="nav-menu">Contacto</a></li>
                 </ul>
             </nav>
-
             <!-- <div class="busqueda-container flex align-center">
                 <form class="flex align-center busqueda-form">
                 <label class="flex align-center">
@@ -47,7 +44,7 @@
             </div> -->
         </div>
     </header>
-    <main class="main">
+    <main>
         <section id="ir-a-home" class="main-portada">
             <div class="container">
                 <div class="flex justify-center">
@@ -56,24 +53,24 @@
                 <div class="flex justify-center">
                     <p class="main-slogan">Tu nueva forma de vida</p>
                 </div>
-                <div class="flex justify-center">
-                    <a href="#ir-a-skincare">
+                <div class="container">
+                    <a href="#ir-a-skincare" class="flex justify-center">
                         <img src="img/SCROLL.gif" alt="desliza abajo" class="scroll">
                     </a>
                 </div>
-                <div class="flex justify-center">
-                    <img src="img/joven-bebiendo.png" alt="Joven bebiendo agua" class="main-img">
+                <div class="flex">
+                    <img src="img/joven-bebiendo.png" alt="Joven bebiendo agua" class="main-img justify-center">
                 </div>
             </div>
         </section>
-        <section class="zindex-1">
-            <div id="ir-a-skincare">
-                <div class="main-skincare container">
-                    <div class="flex justify-center">
-                        <h2 class="center-title">Skin Care</h2>
-                    </div>
-                    <div class="flex justify-center">
-                        <div class="presentation text-container">
+        <section class="zindex-2">
+            <div id="ir-a-skincare" class="main-skincare container">
+                <div class="flex justify-center">
+                    <h2 class="center-title">Skin Care</h2>
+                </div>
+                <div class="flex justify-center">
+                    <div class="presentation text-container">
+                        <div class="bk-media">
                             <p>Green Life es una compañía que se enfoca en <span                class="span-skincare">ayudarte a construir</span> un estilo
                                 de vida <span class="span-skincare">saludable y sostenible</span> en el tiempo.
                             </p>
@@ -93,17 +90,13 @@
                         <div class="product-container">
                             <p>
                                 Tonificador energizante a base de granada
-                            </p>
-                            <div class="product-description">
-                                <p>
+                            </p>                            
+                                <p class="product-description">
                                     Debido al efecto refrescante de la granada tu piel se sentirá renovada, fresca y limpia, sin sequedad ni picazón, tu rostro se verá  humectado durante todo el día.
                                 </p>
-                            </div>
-                            <div class="product-description product-end-description">
-                                <p>
+                                <p class="product-description product-end-description">
                                     Recomendamos usar el producto por la mañana y por la noche para mejores resultados.
                                 </p>
-                            </div>
                             <img src="img/TONIFICADOR 1.png" alt="caja de tonificador" class="added-element">
                         </div>
                     </div>
@@ -137,7 +130,6 @@
                         <div class="flex container-button align-center">
                             <a class="button-comprar flex justify-center align-center" href="https://wa.link/glqsmr" target="_blank">Comprar</a>
                         </div>
-                        
                     </div>
                         <!-- Vista de del carrusel (mySlides)-->
                         <div>
@@ -213,51 +205,68 @@
                                 <a class="button-comprar flex justify-center align-center" href="https://wa.link/cg8pm8" target="_blank">Comprar</a>
                             </div>
                         </div>
-                            <!-- Vista de del carrusel (mySlides)-->
-                            <div>
-                                <div class="mySlides">
-                                    <img src="img/GEL REAFIRMANTE 1.png" style="width:100%">
-                                </div>
-                            
-                                <div class="mySlides">
-                                    <img src="img/LIMPIADOR 1.png" style="width:100%">
-                                </div>
-                            
-                                <div class="mySlides">
-                                    <img src="img/LIMPIADOR 2.png" style="width:100%">
-                                </div>
-                            
-                                <div class="mySlides">
-                                    <img src="img/GEL REAFIRMANTE 2.png" style="width:100%">
-                                </div>
+                        <!-- Vista de del carrusel (mySlides)-->
+                        <div>
+                            <div class="mySlides">
+                                <img src="img/GEL REAFIRMANTE 1.png" style="width:100%">
                             </div>
+                        
+                            <div class="mySlides">
+                                <img src="img/LIMPIADOR 1.png" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <img src="img/LIMPIADOR 2.png" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                                <img src="img/GEL REAFIRMANTE 2.png" style="width:100%">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="ir-a-fitlife" class="zindex-1">
+        <section id="ir-a-fitlife" class="zindex-2">
             <div class="container">
-                <div class="divisor"></div>
-                <div class="flex justify-center main-fitlife">
-                    <h1 class="main-title-fitlife">Fit<span class="span-title-fitlife-gradient">-</span><span class="span-title-fitlife-life">Life</span></h1>
+                <div class="divisor">
                 </div>
-                <div class="divisor"></div>
-                <div class="proximamente flex justify-center align-center">
+                <div class="flex justify-center main-fitlife">
+                    <h1 class="center-title title-fitlife">Fit<span class="span-title-fitlife-gradient">-</span><span class="span-title-fitlife-life">Life</span></h1>
+                </div>
+                <div class="divisor">
+                </div>
+                <div class="proximamente flex justify-center align-center container">
                     <p>Próximamente...</p>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="footer zindex-1" id="ir-a-contacto">
-        <div class="inner-header flex align-center">
-            <div class="logo-footer flex justify-center">
-                <img src="img/Favicon.png" alt="Logo Greenlife">
+    <footer class="footer zindex-2" id="ir-a-contacto">
+        <div class="inner-container flex align-center container">
+            <div class="flex justify-center">
+                    <img src="img/Favicon.png" alt="Logo Greenlife" class="logo-footer">
             </div>
-            <div class="contact-card flex align-center">
-                <a class="button-comprar button-contactar flex align-center" href="mailto:juliandanielpappalettera@gmail.com" target="_blank"> <img src="img/mail-logo.png" alt="Logo WhatsApp" class="logo-wpp">Enviar mail</a>
-                <a class="button-comprar button-contactar flex align-center" href="https://wa.link/29jz6u" target="_blank"> <img src="img/WhatsApp-logo.png" alt="Logo WhatsApp" class="logo-wpp">Contactar</a>
+            <div class="mapa-de-sitio flex justify-center">
+                <div>
+                    <p class="site-map-title">Mapa de Sitio</p>
+                    <ul>
+                        <li><a href="#ir-a-skincare" class="nav-menu">Skin Care</a></li>
+                        <li><a href="#ir-a-fitlife" class="nav-menu">Fit-Life</a></li>
+                        <li><a href="#ir-a-contacto" class="nav-menu">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-card flex align-center justify-center">
+                <a class="button-comprar button-contactar flex align-center" href="https://wa.link/29jz6u" target="_blank">
+                    <img src="img/WhatsApp-logo.png" alt="Logo WhatsApp" class="icon-button-footer">Contactar
+                </a>
+                <a class="button-comprar button-contactar flex align-center" href="mailto:juliandanielpappalettera@gmail.com" target="_blank">
+                    <img src="img/mail-logo.png" alt="Logo WhatsApp" class="icon-button-footer">Enviar mail
+                </a>
             </div>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
