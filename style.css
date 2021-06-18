@@ -486,8 +486,7 @@ opacity: 1;
         font-size: 18px;
     }
     .mySlides {
-        width: 600%;
-        left: 0;
+        width: 100%;
         top: 1%;
         }
     .button-comprar{
@@ -499,7 +498,7 @@ opacity: 1;
         border-radius: 6px;
     }
     .slider-card{
-        max-width: 100%;
+        max-width: 80%;
         margin-top: 70%;
     }
 }
