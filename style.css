@@ -432,7 +432,7 @@ opacity: 1;
         width: 100%;
     }*/
     .main-slogan {
-        font-size: 25px;
+        font-size: 23px;
     }
     .scroll{
         bottom: 25%;
@@ -448,18 +448,19 @@ opacity: 1;
         line-height: 30px;
     }
     .product-container{
+        font-size: 20px;
         line-height: 30px;
         margin-top: 5%;
         margin-bottom: 5%;
         margin-left: 0%;
     }
     .product-description, .product-end-description{
-        font-size: 22px;
+        font-size: 15px;
         line-height: 23px;
         margin-left: 20%;
     }
     .presentation{
-        font-size: 22px;
+        font-size: 15px;
         line-height: 105%;
         padding-bottom: 10%;
     }
