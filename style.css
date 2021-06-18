@@ -492,8 +492,15 @@ opacity: 1;
         }
     .button-comprar{
         width: 75%;
-        font-size: 19px;
+        font-size: 23px;
         border-radius: 25px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    .button-contactar{
+        font-size: 12px;
+        margin-bottom: 4px;
+        margin-top: 4px;
     }
     .row-slider{
         border-radius: 6px;
@@ -511,12 +518,38 @@ opacity: 1;
     .mapa-de-sitio{
         padding-left: 0px;
     }
-    .button-contactar{
-        font-size: 12px;
-        margin-bottom: 4px;
-        margin-top: 4px;
-    }
     .icon-button-footer{
         height: 17px;
     }
+}
+
+@media (max-width: 768px) and (orientation: landscape){
+    .scroll{
+        height: 5%;
+        bottom: 54%;
+    }
+    .bk-media{
+        line-height: 30px;
+    }
+    .main-slider{
+        height: 100%;
+        width: 100%;
+        padding-top: 1%;
+        background-image: url(img/back-3.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .slider-card{
+        max-width: 35%;
+        min-width: 35%;
+        height: 100%;
+        margin-top: 20%;
+    }
+    .mySlides {
+        width: 110%;
+        display: none;
+        position: relative;
+        top: 0%;
+        z-index: 1;
+        }
 }
