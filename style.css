@@ -407,7 +407,20 @@ opacity: 1;
     width: 40%;
     justify-content: flex-end;
 }
-
+@media (max-width: 992px) {
+    .zindex-2{
+        top: 1024px;
+    }
+    .main-portada{
+        height: 1025px;
+    }
+    .main-greenlife{
+        padding-top: 250px;
+    }
+    .main-img{
+        height: 40%;
+    }
+}
 @media (max-width: 768px) {
     .header{
         height: 38px;
@@ -559,19 +572,5 @@ opacity: 1;
     }
     .text-container{
         padding-top: 0px;
-    }
-}
-@media (max-width: 992px) {
-    .zindex-2{
-        top: 1024px;
-    }
-    .main-portada{
-        height: 1025px;
-    }
-    .main-greenlife{
-        padding-top: 250px;
-    }
-    .main-img{
-        height: 40%;
     }
 }
