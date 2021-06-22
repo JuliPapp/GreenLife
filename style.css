@@ -407,7 +407,8 @@ opacity: 1;
     width: 40%;
     justify-content: flex-end;
 }
-@media (max-width: 992px) {
+/*
+@media (max-width: 992px) and (orientation: portrait){
     .zindex-2{
         top: 1024px;
     }
@@ -421,41 +422,19 @@ opacity: 1;
         height: 40%;
     }
     .nav-header{
-        margin-left: 55%;
-        width: 50%;
-    }
-}
-@media (max-width: 768px) and (orientation: landscape){
-    .zindex-2{
-        top: 400px;
-    }
-    .main-greenlife{
-        padding-top: 110px;
-    }
-    .scroll{
-        height: 5%;
-        bottom: 54%;
-    }
-    .slider-card{
-        max-width: 35%;
-        min-width: 35%;
-        height: 100%;
-        margin-top: 20%;
-    }
-    .mySlides {
-        width: 100%;
-        display: none;
-        position: relative;
-        top: 0%;
-        z-index: 1;
+        margin-left: 40%;
+        width: 80%;
     }
     .presentation-text-container{
-        line-height: 150%;
-    }
-    .text-container{
-        padding-top: 0px;
+        padding-bottom: 15%;
+        line-height: 126.1%;
+        text-shadow: 1px 1px 4px #F3F3EE70,
+        -1px -1px 4px #F3F3EE70,
+        -1px 1px 4px #F3F3EE70,
+        1px -1px 4px #F3F3EE70;
     }
 }
+*/
 @media (max-width: 768px) {
     .zindex-2{
         top: 768px;
@@ -545,18 +524,6 @@ opacity: 1;
         width: 100%;
         top: 1%;
         }
-    .button-comprar{
-        width: 66%;
-        font-size: 23px;
-        border-radius: 25px;
-        margin-bottom: 4px;
-        margin-top: 4px;
-    }
-    .button-contactar{
-        font-size: 18px;
-        margin-bottom: 4px;
-        margin-top: 4px;
-    }
     .row-slider{
         border-radius: 6px;
     }
@@ -583,3 +550,60 @@ opacity: 1;
         padding: 60px 0px 60px 0px;
     }
 }
+@media (max-width: 768px) and (orientation: portrait){
+    .button-comprar{
+        width: 66%;
+        font-size: 23px;
+        border-radius: 25px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    .button-contactar{
+        font-size: 18px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+}
+@media (max-width: 768px) and (orientation: landscape) {
+    .zindex-2{
+        top: 400px;
+    }
+    .main-greenlife{
+        padding-top: 110px;
+    }
+    .scroll{
+        height: 5%;
+        bottom: 54%;
+    }
+    .slider-card{
+        max-width: 35%;
+        min-width: 35%;
+        height: 100%;
+        margin-top: 20%;
+    }
+    .mySlides {
+        width: 100%;
+        display: none;
+        position: relative;
+        top: 0%;
+        z-index: 1;
+    }
+    .presentation-text-container{
+        line-height: 150%;
+    }
+    .text-container{
+        padding-top: 0px;
+    }
+    .button-comprar{
+        width: 50%;
+        border-radius: 25px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+    .button-contactar{
+        font-size: 18px;
+    }
+}
+
+
+
