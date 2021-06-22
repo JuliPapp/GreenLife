@@ -157,7 +157,7 @@ input:focus-visible{
 .scroll{
     position: absolute;
     height: 6%;
-    bottom: 10%;
+    bottom: 15%;
     z-index: 1;
 }
 .bg-color-1{
