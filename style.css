@@ -420,8 +420,15 @@ opacity: 1;
     .main-img{
         height: 40%;
     }
+    .nav-header{
+        margin-left: 55%;
+        width: 50%;
+    }
 }
 @media (max-width: 768px) {
+    .zindex-2{
+        top: 768px;
+    }
     .header{
         height: 38px;
     }
