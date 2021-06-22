@@ -562,5 +562,16 @@ opacity: 1;
     }
 }
 @media (max-width: 799px) {
-
+    .zindex-2{
+        top: 1024px;
+    }
+    .main-portada{
+        height: 1025px;
+    }
+    .main-greenlife{
+        padding-top: 250px;
+    }
+    .main-img{
+        height: 40%;
+    }
 }
