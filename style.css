@@ -194,6 +194,7 @@ input:focus-visible{
     position: absolute;
     bottom: -25%;
     left: calc(50% - 1100px);
+    overflow: hidden;
 }
 .product-description{
     margin-top: 2%;
@@ -499,7 +500,7 @@ opacity: 1;
         max-width: 85%;
         font-size: 18px;
         font-weight: 500;
-        line-height: 105%;
+        line-height: 133%;
         text-shadow: 1px 1px 4px #F3F3EE70,
         -1px -1px 4px #F3F3EE70,
         -1px 1px 4px #F3F3EE70,
@@ -610,7 +611,17 @@ opacity: 1;
     }
 }
 @media (max-width: 280px) and (orientation: portrait) {
-
+    .main-greenlife{
+        font-size: 65px;
+        line-height: 1.4;
+    }
+    .main-slogan{
+        font-size: 17px;
+    }
+    .logo-container img {
+        display: inline-block;
+        margin-left: 10px;
+    }
 }
 
 
