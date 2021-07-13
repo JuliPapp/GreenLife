@@ -17,8 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link href="//db.onlinewebfonts.com/c/69dbc1186412d7831b88d8a78a360360?family=DIN+Condensed+Web" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="img/">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
     <title>Greenlife</title>
 </head>
 <body>
@@ -66,12 +67,9 @@
         <section class="zindex-2">
             <div id="ir-a-skincare" class="main-skincare container">
                 <div class="flex justify-center">
-                    <h2 class="center-title display-inblo">Skin Care</h2>
-                </div>
-                <div class="flex justify-center">
                     <div class="presentation-text-container">
                         <div class="bk-media">
-                            <p>Green Life es una compañía que se enfoca en <span                class="span-skincare">ayudarte a construir</span> un estilo
+                            <p>GreenLife es una compañía que se enfoca en <span                class="span-skincare">ayudarte a construir</span> un estilo
                                 de vida <span class="span-skincare">saludable y sostenible</span> en el tiempo.
                             </p>
                             <p>
@@ -86,84 +84,100 @@
             </div>
             <div>
                 <div class="main-tonificador container">
+                    <div class="flex justify-center">
+                        <h2 class="center-title display-inblo">Skin Care</h2>
+                    </div>
                     <div class="text-container flex">
                         <div class="product-container display-inblo">
-                            <p>
+                            <h3>
                                 Tonificador energizante a base de granada
-                            </p>                            
+                            </h3>                            
                                 <p class="product-description">
                                     Debido al efecto refrescante de la granada tu piel se sentirá renovada, fresca y limpia, sin sequedad ni picazón, tu rostro se verá  humectado durante todo el día.
                                 </p>
                                 <p class="product-description product-end-description">
                                     Recomendamos usar el producto por la mañana y por la noche para mejores resultados.
                                 </p>
-                            <img src="img/TONIFICADOR 1.png" alt="caja de tonificador" class="added-element">
+                            <img src="img/TONIFICADOR 1.png" alt="caja de tonificador" class="added-element-1">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="gradient-bk">
 
-                <!-- card carrusel y precios-->
+                <!-- card miniaturas y precios-->
                 <div class="main-slider container">
                     <div class="container-slider text-container flex">
                         <div class="slider-card">
-                            <p class="product-slider">Tonificador energizante
+                            <h3 class="product-slider">Tonificador energizante
                                 a base de granada
-                            </p>
+                            </h3>
                             <p class="product-price">
                                 Precio unitario $589
                             </p>
                             <!-- Miniaturas de del carrusel -->
-                            <div class="row-slider flex justify-center align-center">
-                                <div class="column">
-                                    <img class="demo cursor" src="img/TONIFICADOR 2.png" style="width:100%" onclick="currentSlide(2)" alt="Tonificador 2">
-                                </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="img/TONIFICADOR 3.png" style="width:100%" onclick="currentSlide(3)" alt="Tonificador 3">
-                                </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="img/TONIFICADOR 4.png" style="width:100%" onclick="currentSlide(4)" alt="Tonificador 4">
-                                </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="img/TONIFICADOR 5.png" style="width:100%" onclick="currentSlide(5)" alt="Tonificador 4">
+                            <div class="miniaturas-container">
+                                <div class="slider-nav">
+                                    <div>
+                                        <div class="min-container">
+                                            <img src="img/TONIFICADOR 2.png" alt="tonificado-2">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="min-container">
+                                            <img src="img/TONIFICADOR 3.png" alt="tonificado-3">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="min-container">
+                                            <img src="img/TONIFICADOR 4.png" alt="tonificado-4">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="min-container">
+                                            <img src="img/TONIFICADOR 5.png" alt="tonificado-4">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="flex container-button align-center">
                                 <a class="button-comprar display-inblo justify-center flex" href="https://wa.link/glqsmr" target="_blank">Comprar</a>
                             </div>
                         </div>
-                            <!-- Vista de del carrusel (mySlides)-->
-                            <div>
-                                <div class="mySlides">
-                                    <img src="img/TONIFICADOR 1.png" style="width:100%">
+                            <!-- Vista del carrusel -->
+                            <div class="slider-container">
+                                <div class="slider-for">
+                                    <div>
+                                        <div class="slide-container">
+                                            <img src="img/TONIFICADOR 2.png" alt="tonificado-2">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="slide-container">
+                                            <img src="img/TONIFICADOR 3.png" alt="tonificado-3">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="slide-container">
+                                            <img src="img/TONIFICADOR 4.png" alt="tonificado-4">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="slide-container">
+                                            <img src="img/TONIFICADOR 5.png" alt="tonificado-4">
+                                        </div>
+                                    </div>
                                 </div>
-                            
-                                <div class="mySlides">
-                                    <img src="img/TONIFICADOR 2.png" style="width:100%">
-                                </div>
-                            
-                                <div class="mySlides">
-                                    <img src="img/TONIFICADOR 3.png" style="width:100%">
-                                </div>
-                            
-                                <div class="mySlides">
-                                    <img src="img/TONIFICADOR 4.png" style="width:100%">
-                                </div>
-                            
-                                <div class="mySlides">
-                                    <img src="img/TONIFICADOR 5.png" style="width:100%">
-                                </div>
-                            </div>
+                            </div>   
                     </div>
                 </div>
                 <div>
                     <div class="main-limpiador container">
                         <div class="text-container flex">
                             <div class="product-container display-inblo p2-color">
-                                <p>
+                                <h3>
                                     Limpiador cítrico y gel reafirmante
-                                </p>
+                                </h3>
                                 <div class="product-description">
                                     <p>
                                         Combinar estos productos te brindará una piel fresca, suave y libre de impurezas, la incorporación de cítricos cumple un rol fundamental eliminando manchas en tu cutis.
@@ -174,7 +188,7 @@
                                         Son productos totalmente naturales, libres de quimicos que puedan llegar a dañar tu piel.
                                     </p>
                                 </div>
-                                <img src="img/NARANJA 1.png" alt="media naranja" class="added-element">
+                                <img src="img/NARANJA 1.png" alt="media naranja" class="added-element-2">
                             </div>
                         </div>
                     </div>
@@ -182,49 +196,20 @@
                     <div class="main-slider bk-4 container">
                         <div class="container-slider text-container">
                             <div class="slider-card">
-                                <p class="product-slider p2-color">
+                                <h3 class="product-slider p2-color">
                                     Limpiador cítrico y gel reafirmante
-                                </p>
+                                </h3>
                                 <p class="product-price">
                                     Precio unitario $1.398
                                 </p>
-                                <!-- Miniaturas de del carrusel -->
-                                <div class="row-slider flex justify-center align-center">
-                                    <div class="column">
-                                        <img class="demo cursor" src="img/GEL REAFIRMANTE 1.png" style="width:100%" onclick="currentSlide(2)" alt="Tonificador 2">
-                                    </div>
-                                    <div class="column">
-                                        <img class="demo cursor" src="img/LIMPIADOR 1.png" style="width:100%" onclick="currentSlide(3)" alt="Tonificador 3">
-                                    </div>
-                                    <div class="column">
-                                        <img class="demo cursor" src="img/LIMPIADOR 2.png" style="width:100%" onclick="currentSlide(4)" alt="Tonificador 4">
-                                    </div>
-                                    <div class="column">
-                                        <img class="demo cursor" src="img/GEL REAFIRMANTE 2.png" style="width:100%" onclick="currentSlide(5)" alt="Tonificador 4">
-                                    </div>
-                                </div>
+                                
+
                                 <div class="flex container-button align-center">
                                     <a class="button-comprar display-inblo flex justify-center align-center" href="https://wa.link/cg8pm8" target="_blank">Comprar</a>
                                 </div>
                             </div>
                             <!-- Vista de del carrusel (mySlides)-->
-                            <div>
-                                <div class="mySlides">
-                                    <img src="img/GEL REAFIRMANTE 1.png" style="width:100%">
-                                </div>
                             
-                                <div class="mySlides">
-                                    <img src="img/LIMPIADOR 1.png" style="width:100%">
-                                </div>
-                            
-                                <div class="mySlides">
-                                    <img src="img/LIMPIADOR 2.png" style="width:100%">
-                                </div>
-                            
-                                <div class="mySlides">
-                                    <img src="img/GEL REAFIRMANTE 2.png" style="width:100%">
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -232,18 +217,12 @@
         </section>
         <section id="ir-a-fitlife" class="zindex-2">
             <div class="container">
-                <div class="divisor">
-                </div>
                 <div class="flex justify-center main-fitlife">
                     <h1 class="center-title display-inblo title-fitlife">Fit<span class="span-title-fitlife-gradient">-</span><span class="span-title-fitlife-life">Life</span></h1>
-                </div>
-                <div class="divisor">
                 </div>
                 <div class="proximamente flex justify-center align-center container">
                     <p>Próximamente...</p>
                 </div>
-                <div class="divisor">
-            </div>
         </section>
     </main>
     <footer class="footer zindex-2" id="ir-a-contacto">
@@ -262,12 +241,15 @@
                     <a class="button-comprar display-inblo button-contactar flex align-center" href="https://wa.link/29jz6u" target="_blank">
                         <img src="img/WhatsApp-logo.png" alt="Logo WhatsApp" class="icon-button-footer">Contactar
                     </a>
-                    <a class="button-comprar button-contactar flex align-center" href="mailto:juliandanielpappalettera@gmail.com" target="_blank">
+                    <a class="button-comprar display-inblo button-contactar flex align-center" href="mailto:juliandanielpappalettera@gmail.com" target="_blank">
                         <img src="img/mail-logo.png" alt="Logo WhatsApp" class="icon-button-footer">Enviar mail
                     </a>
             </div>
         </div>
     </footer>
-    <script src="main.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
