@@ -48,10 +48,8 @@ body{
     max-width: 60%;
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 20px;
-    line-height: 176.1%;
     letter-spacing: 0.03em;
     color: #000000;
-
 }
 .header{
     position: fixed;
@@ -123,7 +121,7 @@ input:focus-visible{
     padding-top: 150px;
 }
 .presentation-text-container {
-    padding-top: 4%;
+    padding-top: 6%;
     padding-bottom: 30%;
     font-size: 24px;
     margin: 0 auto;
@@ -137,9 +135,8 @@ input:focus-visible{
     font-family: 'DIN Condensed';
     font-size: 33px;
     color: #6F1328;
-    margin-top: 30%;
+    margin-top: 10%;
     margin-left: 20%;
-    margin-bottom: 20%;
     text-align: right;
 }
 .main-greenlife span{
@@ -193,10 +190,10 @@ input:focus-visible{
     position: relative;
 }
 .added-element-1{
-    height: 80%;
+    height: 100%;
     position: absolute;
     top: 25%;
-    left: -20%;
+    left: -11%;
 }
 .added-element-2{
     height: 150%;
@@ -217,13 +214,12 @@ input:focus-visible{
     margin-left: 22%;
 }
 .main-slider{
-    padding-top: 1%;
     background-image: url(../img/back-3.png);
-    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .slider-card{
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-right: 70px;
     max-width: 35%;
     min-width: 35%;
     height: 100%;
