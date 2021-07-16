@@ -14,6 +14,12 @@ body{
     background-color: #D6D6C7;
     width: 100%;
 }
+.slick-slide {
+    outline: none
+}
+.just-mobile{
+    display: none;
+}
 .zindex-2{
     position: relative;
     top: 800px;
@@ -271,10 +277,12 @@ input:focus-visible{
     margin: 7px 3px 7px 3px;
 }
 .slider-container{
-    max-width: 95%;
+    width: 80%;
+    height: 100%;
 }
-.slider-container img{
-    width: 70%;
+.slide-container img{
+    width: 400px;
+    margin: 0 auto;
 }
 .p2-color{
     color: #ED7A00;
@@ -360,6 +368,12 @@ input:focus-visible{
         left: -15%;
     }
 }
+@media (max-width: 1024px) {
+    .presentation-text-container{
+        line-height: 158.1%;
+        padding-bottom: 31%;
+    }
+}
 @media (max-width: 1005px) {
     .added-element-1, .added-element-2{
         transition-duration: 1.5s;
@@ -380,50 +394,10 @@ input:focus-visible{
     }
 
 }
-@media (max-width: 768px) and (orientation: portrait){
-    .zindex-2{
-        top: 900px;
-    }
-    .main-portada{
-        height: 1025px;
-    }
-    .main-greenlife{
-        padding-top: 250px;
-    }
-    .main-img{
-        height: 40%;
-    }
-    .nav-header{
-        margin-left: 40%;
-        width: 80%;
-    }
-    .presentation-text-container{
-        padding-bottom: 15%;
-        line-height: 126.1%;
-        text-shadow: 1px 1px 4px #F3F3EE70,
-                     -1px -1px 4px #F3F3EE70,
-                     -1px 1px 4px #F3F3EE70,
-                     1px -1px 4px #F3F3EE70;
-    }
-    .container-slider{
-        display: block;
-    }
+@media (max-width: 834px) {
     .slider-container{
-        position: relative;
-        top: -650px;
+        width: 70%;
     }
-    .slide-container{
-        display: flex;
-        justify-content: center;
-    }
-    .slider-card{
-        margin: 0 auto;
-    }
-    .added-element-1, .added-element-2{
-        display: none;
-    }
-}
-@media (max-width: 768px) {
     .button-comprar{
         font-size: 17px;
     }
@@ -469,9 +443,8 @@ input:focus-visible{
         display: none;
     }
     .center-title{
-        font-size: 50px;
-        top: 130%;
-        margin-top: 14px;
+        font-size: 72px;
+        margin-top: 75px;
     }
     .container-section{
         line-height: 30px;
@@ -481,7 +454,6 @@ input:focus-visible{
         line-height: 30px;
         margin-top: 5%;
         margin-bottom: 5%;
-        margin-left: 0%;
     }
     .presentation-text-container{
         max-width: 85%;
@@ -506,14 +478,6 @@ input:focus-visible{
     .product-price{
         font-size: 18px;
     }
-    .mySlides {
-        margin: 0 auto;
-        width: 100%;
-        top: 1%;
-        }
-    .row-slider{
-        border-radius: 6px;
-    }
     .slider-card{
         max-width: 77%;
         margin-top: 70%;
@@ -523,7 +487,6 @@ input:focus-visible{
     }
     .contact-card{
         width: 68%;
-        flex-direction: column;
         align-items: flex-end;
     }
     .mapa-de-sitio{
@@ -537,6 +500,62 @@ input:focus-visible{
         padding: 60px 0px 60px 0px;
     }
 }
+@media (max-width: 834px) and (orientation: portrait) {
+    .zindex-2{
+        top: 900px;
+    }
+    .main-portada{
+        height: 1025px;
+    }
+    .main-greenlife{
+        padding-top: 250px;
+    }
+    .main-img{
+        height: 40%;
+    }
+    .nav-header{
+        margin: 0 auto;
+        width: 80%;
+    }
+    .presentation-text-container{
+        line-height: 126.1%;
+        text-shadow: 1px 1px 4px #F3F3EE70,
+                     -1px -1px 4px #F3F3EE70,
+                     -1px 1px 4px #F3F3EE70,
+                     1px -1px 4px #F3F3EE70;
+    }
+    .added-element-1, .added-element-2{
+        display: none;
+    }
+    .slider-card{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 800px) {
+    .main-greenlife{
+        line-height: 110px;
+    }
+    .main-img{
+        display: block;
+    }
+    .contact-card{
+        flex-direction: row;
+    }
+    .container-slider{
+        display: block;
+    }
+    .slider-container{
+        position: relative;
+        top: -650px;
+    }
+    .slide-container{
+        display: flex;
+        justify-content: center;
+    }
+    .text-container{
+        padding-bottom: 1px;
+    }
+}
 @media (max-width: 768px) and (orientation: portrait) {
     .button-comprar{
         border-radius: 25px;
@@ -544,9 +563,14 @@ input:focus-visible{
         margin-top: 4px;
     }
     .button-contactar{
-        font-size: 10px;
+        font-size: 15px;
         margin-bottom: 4px;
         margin-top: 4px;
+        width: 150px;
+    }
+    .container-slider{
+        padding-top: 450px;
+        padding-bottom: 30px;
     }
 }
 @media (max-width: 768px) and (orientation: landscape) {
@@ -566,13 +590,6 @@ input:focus-visible{
         height: 100%;
         margin-top: 20%;
     }
-    .mySlides {
-        width: 100%;
-        display: none;
-        position: relative;
-        top: 0%;
-        z-index: 1;
-    }
     .presentation-text-container{
         line-height: 150%;
     }
@@ -590,7 +607,64 @@ input:focus-visible{
         width: 38%;
     }
 }
-@media (max-width: 280px) and (orientation: portrait) {
+@media (max-width: 414px) {
+    .main-img{
+        display: none;
+    }
+    .inner-container{
+        margin: auto auto;
+    }
+    .logo-container{
+        display: none;
+    }
+    .nav-header{
+        width: 100%;
+    }
+    .just-mobile{
+        display: inline-block;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
+    }
+    .scroll{
+        bottom: 35%;
+    }
+    .zindex-2{
+        top: 737px;
+    }
+    .presentation-text-container{
+        font-size: 16px;
+        line-height: 95.1%;
+    padding-bottom: 129px;
+    }
+    .center-title{
+        margin-top: 10px;
+    }
+    .slider-container{
+        width: 101%;
+    }
+    .slide-container img{
+        width: 350px;
+    }
+    .title-fitlife{
+        margin: 13% 25%;
+    }
+    .proximamente{
+        padding: 30px 0px 30px 0px;
+    }
+    .mapa-de-sitio{
+        width: 41%;
+        margin-left: 30px;
+    }
+    .contact-card{
+        flex-direction: column;
+        margin-right: 25px;
+    }
+}
+@media (max-width: 375px) and (orientation: portrait) {
     .main-greenlife{
         font-size: 65px;
         line-height: 1.4;
