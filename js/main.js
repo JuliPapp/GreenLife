@@ -9,7 +9,7 @@ $(document).ready(function(){
       });
       $('.slider-nav').slick({
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
         asNavFor: '.slider-for',
         dots: false,
         centerMode: false,
@@ -26,10 +26,11 @@ $(document).ready(function(){
       });
       $('.slider-nav2').slick({
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
         asNavFor: '.slider-for2',
         dots: false,
         centerMode: false,
+        infinite: false,
         focusOnSelect: true
       });
 });
