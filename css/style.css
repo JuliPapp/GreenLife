@@ -823,7 +823,7 @@ input:focus-visible{
         margin: 0 auto;
     }
     .slide-container img{
-        width: 350px;
+        width: 320px;
     }
     .title-fitlife{
         margin: 13% 25%;
@@ -858,6 +858,9 @@ input:focus-visible{
     .product-description{
         margin-left: 10%;
         margin-bottom: 20px;
+    }
+    .product-slider{
+        margin-top: 0px;
     }
 }
 @media (max-width: 320px) and (orientation: portrait) {
