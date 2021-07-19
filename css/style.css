@@ -856,7 +856,7 @@ input:focus-visible{
     }
     .slider-container{
         width: 105%;
-        left: -21%;
+        left: -10%;
         margin-top: 0px;
     }
     .slider-card{
@@ -903,6 +903,9 @@ input:focus-visible{
     }
     .product-slider{
         margin-top: 0px;
+    }
+    .added-element-1, .added-element-2{
+        display: none;
     }
 }
 @media (max-width: 320px) and (orientation: portrait) {
