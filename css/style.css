@@ -692,7 +692,6 @@ input:focus-visible{
     }
     .slider-card{
         max-width: 35%;
-        min-width: 35%;
         height: 100%;
         margin-top: 20%;
     }
@@ -748,7 +747,22 @@ input:focus-visible{
         margin-bottom: 15%;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 667px) {
+    .center-title{
+        margin-bottom: 0;
+    }
+    .presentation-text-container{
+        padding-bottom: 29%;
+        line-height: 130%;
+    }
+    .added-element-1{
+        top: 30%;
+    }
+    .main-fitlife{
+        padding-bottom: 15%;
+    }
+}
+@media (max-width: 600px and 568px) {
     .added-element-1, .added-element-2{
         display: none;
     }
@@ -765,6 +779,34 @@ input:focus-visible{
         left: 20%;
     }
 
+}
+@media (max-width: 568px) {
+    .main-greenlife{
+        line-height: 60px;
+        font-size: 105px;
+    }
+    .scroll{
+        height: 4%;
+        bottom: 58%;
+    }
+    .contact-card{
+        width: 71%;
+    }
+    .slider-card{
+        min-width: 50%;
+    }
+    .slide-container img {
+        width: 250px;
+    }
+    .slider-container{
+        margin-left: 20px;
+        width: 64%;
+    }
+    .added-element-1, .added-element-2{
+        transition-duration: 1.5s;
+        transition-property: left;
+        left: -42%;
+    }
 }
 @media (max-width: 414px) {
     .inner-container{
@@ -917,5 +959,12 @@ input:focus-visible{
     }
     .mapa-de-sitio{
         margin-left: 8px;
+    }
+    .added-element-1, .added-element-2{
+        display: none;
+    }
+    .slider-container{
+        width: 100%;
+        left: -7%;
     }
 }
