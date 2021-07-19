@@ -369,16 +369,49 @@ input:focus-visible{
         left: -15%;
     }
 }
+@media (max-width: 1112px) {
+    .button-comprar{
+        padding: 9px 10px;
+    }
+}
 @media (max-width: 1024px) {
+    .main-img{
+        display: none;
+    }
+    .zindex-2{
+        top: 1366px;
+    }
+    .text-container, .presentation-text-container{
+        max-width: 77%;
+    }
+    .product-container{
+        margin-top: 6%;
+        margin-bottom: 9%;  
+    }
     .presentation-text-container{
         line-height: 158.1%;
         padding-bottom: 31%;
+    }
+    .main-greenlife{
+        padding-top: 500px;
+    }
+    .main-slogan{
+        line-height: 40px;
+    }
+    .scroll{
+        bottom: -25%;
     }
     .slide-container img{
         width: 460px;
     }
     .slider-card{
         margin-top: 80px;
+        margin-bottom: 95px;
+        min-width: 42%;
+        margin-right: 0px;
+    }
+    .slider-container{
+        width: 70%;
     }
     .added-element-2{
         height: 629px;
@@ -389,6 +422,13 @@ input:focus-visible{
     }
     .contact-card{
         justify-content: center;
+    }
+    .button-comprar {
+        padding: 10px 10px;
+        width: 128px;
+    }
+    .button-contactar{
+        width: 170px;
     }
 }
 @media (max-width: 1005px) {
@@ -419,9 +459,6 @@ input:focus-visible{
     .button-comprar{
         font-size: 17px;
     }
-    .zindex-2{
-        top: 768px;
-    }
     .header{
         height: 38px;
     }
@@ -443,7 +480,7 @@ input:focus-visible{
         height: 700px;
     }
     .main-greenlife{
-        font-size: 85px;
+        font-size: 120px;
     }
     /*.busqueda-container img{
         display: none;
@@ -455,7 +492,7 @@ input:focus-visible{
         font-size: 23px;
     }
     .scroll{
-        bottom: 25%;
+        bottom: 10%;
     }
     .main-img{
         display: none;
@@ -474,7 +511,7 @@ input:focus-visible{
         margin-bottom: 5%;
     }
     .presentation-text-container{
-        max-width: 85%;
+        max-width: 70%;
         font-size: 18px;
         line-height: 133%;
         padding-bottom: 25%;
@@ -485,10 +522,9 @@ input:focus-visible{
         margin-left: 20%;
     }
     .text-container{
-        max-width: 85%;
+        max-width: 70%;
         letter-spacing: 0em;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 15px;
     }
     .product-slider{
         font-size: 23px;
@@ -507,20 +543,17 @@ input:focus-visible{
         width: 68%;
         align-items: flex-end;
     }
-    .mapa-de-sitio{
-        padding-left: 0px;
-    }
     .icon-button-footer{
         height: 28px;
     }
     .proximamente{
-        font-size: 40px;
+        font-size: 35px;
         padding: 60px 0px 60px 0px;
     }
 }
 @media (max-width: 834px) and (orientation: portrait) {
     .zindex-2{
-        top: 900px;
+        top: 1112px;
     }
     .main-portada{
         height: 1025px;
@@ -536,7 +569,7 @@ input:focus-visible{
         width: 80%;
     }
     .presentation-text-container{
-        line-height: 126.1%;
+        line-height: 170.1%;
         text-shadow: 1px 1px 4px #F3F3EE70,
                      -1px -1px 4px #F3F3EE70,
                      -1px 1px 4px #F3F3EE70,
@@ -550,8 +583,20 @@ input:focus-visible{
         margin-top: 48px;
     }
     .button-comprar{
-        padding: 9px 10px;
-        width: 112px;
+        width: 110px;
+    }
+    .button-contactar{
+        width: 145px;
+    }
+    .slider-container{
+        margin-left: 40px;
+        width: 400px;
+    }
+    .slide-container img{
+        width: 400px;
+    }
+    .mapa-de-sitio{
+        padding-left: 75px;
     }
 }
 @media (max-width: 800px) {
@@ -668,6 +713,41 @@ input:focus-visible{
         width: 38%;
     }
 }
+@media (max-width: 736px) {
+    .main-greenlife{
+        padding-top: 140px;
+        bottom: 52%;
+    }
+    .main-img{
+        display: none;
+    }
+    .zindex-2{
+        top: 414px;
+    }
+    .center-title{
+        margin-top: 60px;
+        margin-bottom: 35px;    
+    }
+    .slide-container img {
+        width: 300px;
+    }
+    .slider-container{
+        margin-top: 113px;
+        margin-left: 60px;
+    }
+    .added-element-1{
+        height: 500px;
+        top: 15%;
+    }
+    .added-element-2{
+        height: 520px;
+        top: -25%;
+    }
+    .center-title {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+}
 @media (max-width: 600px) {
     .added-element-1, .added-element-2{
         display: none;
@@ -687,11 +767,17 @@ input:focus-visible{
 
 }
 @media (max-width: 414px) {
+    .inner-container{
+        max-width: 100%;
+        margin: auto auto;
+        margin-bottom: 10px;
+    }
     .main-img{
         display: none;
     }
-    .inner-container{
-        margin: auto auto;
+    .main-greenlife{
+        padding-top: 220px;
+        font-size: 95px;
     }
     .logo-container{
         display: none;
@@ -714,16 +800,27 @@ input:focus-visible{
     .zindex-2{
         top: 737px;
     }
+    .text-container{
+        max-width: 80%;
+    }
     .presentation-text-container{
         font-size: 16px;
         line-height: 95.1%;
-    padding-bottom: 129px;
+        padding-bottom: 155px;
+        max-width: 80%;
     }
     .center-title{
         margin-top: 10px;
     }
     .slider-container{
-        width: 101%;
+        width: 105%;
+        left: -21%;
+        margin-top: 0px;
+    }
+    .slider-card{
+        max-width: 70%;
+        padding-bottom: 40px;
+        margin: 0 auto;
     }
     .slide-container img{
         width: 350px;
@@ -740,13 +837,48 @@ input:focus-visible{
     }
     .contact-card{
         flex-direction: column;
-        margin-right: 25px;
+        width: 55%;
+    }
+    .button-contactar{
+        font-size: 16px;
+        width: 138px;
+        padding: 7px 10px;
+    }
+    .mapa-de-sitio{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .footer{
+        height: 100%;
+        padding: 8px 0px 5px 0px;
+    }
+    .product-container{
+        margin-left: 0;
+    }
+    .product-description{
+        margin-left: 10%;
+        margin-bottom: 20px;
     }
 }
-@media (max-width: 375px) and (orientation: portrait) {
+@media (max-width: 320px) and (orientation: portrait) {
+    .presentation-text-container{
+        font-size: 13px;
+    }
+    .product-price{
+        font-size: 15px;
+    }
+    .product-description, .product-end-description {
+        font-size: 17px;
+    }
+    .nav-container{
+        width: 95%;
+    }
+    .nav-menu{
+        font-size: 13px;
+    }
     .main-greenlife{
-        font-size: 65px;
-        line-height: 1.4;
+        font-size: 80px;
+        line-height: 0.7;   
     }
     .main-slogan{
         font-size: 17px;
@@ -755,7 +887,32 @@ input:focus-visible{
         display: inline-block;
         margin-left: 10px;
     }
+    .scroll {
+        bottom: 45%;
+    }
+    .center-title{
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+    .product-container h3{
+        font-size: 19px;
+    }
+    .product-slider{
+        font-size: 19px;
+    }
+    .slider-container img{
+        width: 250px;
+    }
+    .min-container img{
+        width: 40px;
+    }
+    .slider-card{
+        max-width: 85%;
+    }
+    .proximamente{
+        font-size: 22px;
+    }
+    .mapa-de-sitio{
+        margin-left: 8px;
+    }
 }
-
-
-
