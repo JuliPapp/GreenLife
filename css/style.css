@@ -120,6 +120,7 @@ input:focus-visible{
 }
 .main-greenlife{
     padding-top: 8%;
+    padding-bottom: 5%;
     width: 50%;
 }
 .presentation-text-container {
@@ -140,9 +141,6 @@ input:focus-visible{
     margin-top: 10%;
     margin-left: 20%;
     text-align: right;
-}
-.main-greenlife span{
-    color: #FBF7E9;
 }
 .main-slogan{
     font-family: 'Roboto', sans-serif;
