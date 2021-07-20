@@ -783,7 +783,7 @@ input:focus-visible{
     }
     .slider-container{
         margin-left: 20px;
-        width: 64%;
+        width: 85%;
     }
     .added-element-1, .added-element-2{
         transition-duration: 1.5s;
