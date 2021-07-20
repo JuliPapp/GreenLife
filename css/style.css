@@ -119,12 +119,8 @@ input:focus-visible{
     z-index: 0;
 }
 .main-greenlife{
-    font-family: 'DIN Condensed', 'Barlow Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 164px;
-    line-height: 130px;
-    color: #6D8E40;
-    padding-top: 150px;
+    padding-top: 8%;
+    width: 50%;
 }
 .presentation-text-container {
     padding-top: 6%;
