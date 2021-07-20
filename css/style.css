@@ -188,7 +188,7 @@ input:focus-visible{
 .added-element-1{
     height: 600px;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: -5%;
 }
 .added-element-2{
@@ -373,7 +373,7 @@ input:focus-visible{
         display: none;
     }
     .zindex-2{
-        top: 1366px;
+        top: 768px;
     }
     .text-container, .presentation-text-container{
         max-width: 77%;
@@ -387,13 +387,13 @@ input:focus-visible{
         padding-bottom: 31%;
     }
     .main-greenlife{
-        padding-top: 500px;
+        padding-top: 20%;
     }
     .main-slogan{
         line-height: 40px;
     }
     .scroll{
-        bottom: -25%;
+        bottom: 15%;
     }
     .slide-container img{
         width: 460px;
@@ -473,9 +473,6 @@ input:focus-visible{
     .main-portada{
         height: 700px;
     }
-    .main-greenlife{
-        font-size: 120px;
-    }
     /*.busqueda-container img{
         display: none;
     }
@@ -552,9 +549,9 @@ input:focus-visible{
     .main-portada{
         height: 1025px;
     }
-    .main-greenlife{
+    /*.main-greenlife{
         padding-top: 250px;
-    }
+    }*/
     .main-img{
         height: 40%;
     }
@@ -593,7 +590,10 @@ input:focus-visible{
         padding-left: 75px;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 801px) {
+    .main-greenlife{
+        padding-top: 15%;
+    }
     .added-element-1, .added-element-2{
         display: block;
         opacity: 100%;
@@ -608,9 +608,6 @@ input:focus-visible{
     }
     .zindex-2{
         top: 625px;
-    }
-    .main-greenlife{
-        line-height: 110px;
     }
     .main-img{
         display: block;
@@ -637,9 +634,6 @@ input:focus-visible{
 @media (max-width: 768px) and (orientation: portrait) {
     .zindex-2{
         top: 1024px;
-    }
-    .scroll {
-        bottom: 35%;
     }
     .button-comprar{
         border-radius: 25px;
@@ -677,12 +671,12 @@ input:focus-visible{
     .zindex-2{
         top: 400px;
     }
-    .main-greenlife{
+    /*.main-greenlife{
         padding-top: 110px;
-    }
+    }*/
     .scroll{
         height: 5%;
-        bottom: 54%;
+        bottom: 50%;
     }
     .slider-card{
         max-width: 35%;
@@ -707,10 +701,9 @@ input:focus-visible{
     }
 }
 @media (max-width: 736px) {
-    .main-greenlife{
+    /*.main-greenlife{
         padding-top: 140px;
-        bottom: 52%;
-    }
+    }*/
     .main-img{
         display: none;
     }
@@ -775,10 +768,6 @@ input:focus-visible{
 
 }
 @media (max-width: 568px) {
-    .main-greenlife{
-        line-height: 60px;
-        font-size: 105px;
-    }
     .scroll{
         height: 4%;
         bottom: 58%;
@@ -811,10 +800,9 @@ input:focus-visible{
     .main-img{
         display: none;
     }
-    .main-greenlife{
+    /*.main-greenlife{
         padding-top: 220px;
-        font-size: 95px;
-    }
+    }*/
     .logo-container{
         display: none;
     }
@@ -901,6 +889,10 @@ input:focus-visible{
     .added-element-1, .added-element-2{
         display: none;
     }
+    .main-greenlife {
+        padding-top: 40%;
+        width: 65%;
+    }
 }
 @media (max-width: 320px) and (orientation: portrait) {
     .presentation-text-container{
@@ -918,10 +910,6 @@ input:focus-visible{
     .nav-menu{
         font-size: 13px;
     }
-    .main-greenlife{
-        font-size: 80px;
-        line-height: 0.7;   
-    }
     .main-slogan{
         font-size: 17px;
     }
@@ -930,7 +918,7 @@ input:focus-visible{
         margin-left: 10px;
     }
     .scroll {
-        bottom: 45%;
+        bottom: 50%;
     }
     .center-title{
         font-size: 50px;
